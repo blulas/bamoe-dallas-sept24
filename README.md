@@ -9,3 +9,6 @@ This repository contains sample applications and environment setup instructions 
 ## Local Machine Setup
 The following instructions are helpful in setting up your local environment in order to do BAMOE development.  All functions of BAMOE are available from the developer workstation, including web-based tools and consoles.  Click on [Local Machine Setup](bamoe-setup/README.md) for local machine setup instructions.
 
+## Building and Running Sample Applications
+This repository includes all published BAMOE examples (powered by Kogito), which can be found by clicking on [BAMOE Examples](bamoe-examples/README.md).
+
