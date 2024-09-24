@@ -8,7 +8,9 @@ You need `Docker Compose` to run the BAMOE Canvas. Since Docker Desktop is no lo
 ## Run
 In a terminal, navigate to the `bamoe-setup/docker/canvas` folder and run the following command: 
 
-`docker compose up`
+```sh
+docker compose up
+```
 
 ## Canvas
 Once the container image is up and running, you can access `BAMOE Canvas` [here](http://localhost:9090).  

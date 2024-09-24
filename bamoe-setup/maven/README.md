@@ -8,10 +8,14 @@ You need `Docker Compose` to run the BAMOE Maven container image. Since Docker D
 ## Pull the Container Image
 In a terminal, navigate to the `bamoe-setup/maven` folder and run the following command: 
 
-`docker pull quay.io/bamoe/maven-repository:9.1.0-ibm-0001`
+```sh
+docker pull quay.io/bamoe/maven-repository:9.1.0-ibm-0001
+```
 
 ## Run
-`docker run -d -p <PORT>:80 quay.io/bamoe/maven-repository:9.1.0-ibm-0001`
+```sh
+docker run -d -p <PORT>:80 quay.io/bamoe/maven-repository:9.1.0-ibm-0001
+```
 
 _Replace PORT with whatever port you want the container to be mapped to on your host._
 
