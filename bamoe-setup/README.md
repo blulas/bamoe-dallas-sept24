@@ -15,6 +15,8 @@ There are several pre-built container images which assist the developer.  These 
 
 - **BAMOE Canvas** (_optional_), which is the next generation of web-based modeling tools, can be installed either on your local workstation or via a shared server   Canvas is available as a published container image at:  https://quay.io/repository/bamoe/canvas.  There are two other container images necessary to run Canvas, the **Extended Services**:  https://quay.io/repository/bamoe/extended-services, and the **CORS Proxy**: https://quay.io/repository/bamoe/cors-proxy.
 
+For more information on how to install and run Canvas, click [here](docker/canvas/README.md)
+
 - **BAMOE Maven Repository**, is a on-premise container image that provides local access to the product’s Maven libraries, which are the building blocks of BAMOE projects.  To build a BAMOE project, you must have access to either the container image or create a local off-line Maven repository, possibly in an Artifactory instance or some other sort of Maven server.  The BAMOE installation files include an off-line version of the Maven libraries, but it is recommended to use the container image, as IBM re-spins their images every 30 days to combat CVE’s.  The image is available at:  https://quay.io/repository/bamoe/maven-repository.
 
 - **Management Consoles** are a set of cloud-native consoles used to administer stateful business processes.
